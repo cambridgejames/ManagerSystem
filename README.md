@@ -70,3 +70,9 @@ java -jar <JAR_FILE_NAME>
 ```shell
 java -jar ManagerSystem-0.0.1-SNAPSHOT.jar
 ```
+
+# 四、贡献者
+
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=cambridgejames/ManagerSystemDemo"  alt="contributors"/>
+</a>
