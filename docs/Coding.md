@@ -10,7 +10,7 @@
 
 # 二、异常
 
-异常模块的主要代码见：`com.linkmeng.managersystem.common.exception.*`。
+异常模块的主要代码见：`com.cosscloud.demo.managersystem.common.exception.*`。
 
 本系统中共涉及三种自定义异常，分别为：
 
@@ -30,7 +30,7 @@
 
 # 三、国际化
 
-国际化配置文件位于：`/src/main/resources/i18n/`目录下；国际化工具类为：`com.linkmeng.managersystem.common.util.ResourceUtil`。
+国际化配置文件位于：`/src/main/resources/i18n/`目录下；国际化工具类为：`com.cosscloud.demo.managersystem.common.util.ResourceUtil`。
 
 国际化包含两种，分别为：正常信息的国际化及异常信息的国际化。
 
@@ -55,7 +55,7 @@
 
 # 四、权限校验
 
-权限校验模块使用自定义注解配合切面实现，核心逻辑为：`com.linkmeng.managersystem.role.*`。
+权限校验模块使用自定义注解配合切面实现，核心逻辑为：`com.cosscloud.demo.managersystem.role.*`。
 
 通过在接口上使用自定义注解`@RequiredUserRole({})`来定义该接口允许具有哪些权限的用户访问。Header中的用户信息在切面中被解析并与配置进行对比，如果获取不到用户信息或当前用户无权限，则会抛出用户权限校验异常。
 
@@ -63,7 +63,7 @@
 
 # 五、缓存
 
-由于本系统使用文件代替数据库进行数据持久化，因此需要缓存模块以在可能的高并发状态下尽可能降低磁盘IO。缓存模块的核心逻辑见：`com.linkmeng.managersystem.common.cache.*`。
+由于本系统使用文件代替数据库进行数据持久化，因此需要缓存模块以在可能的高并发状态下尽可能降低磁盘IO。缓存模块的核心逻辑见：`com.cosscloud.demo.managersystem.common.cache.*`。
 
 缓存中定义了持久化文件名、缓存失效时间等配置项，所有涉及到缓存写与文件读写的操作均已上锁。
 

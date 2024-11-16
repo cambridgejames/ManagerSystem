@@ -1,21 +1,22 @@
-<h1 align="center">资源管理系统</h1>
+<h1 align="center">资源管理系统Demo</h1>
 <div align="center">
-<a href="https://github.com/LinkMeng/ManagerSystem/stargazers"><img src="https://img.shields.io/github/stars/LinkMeng/ManagerSystem" alt="Stars Badge"/></a>
-<a href="https://github.com/LinkMeng/ManagerSystem/network/members"><img src="https://img.shields.io/github/forks/LinkMeng/ManagerSystem" alt="Forks Badge"/></a>
-<a href="https://github.com/LinkMeng/ManagerSystem/pulls"><img src="https://img.shields.io/github/issues-pr/LinkMeng/ManagerSystem" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/LinkMeng/ManagerSystem/issues"><img src="https://img.shields.io/github/issues/LinkMeng/ManagerSystem" alt="Issues Badge"/></a>
-<a href="https://github.com/LinkMeng/ManagerSystem/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/LinkMeng/ManagerSystem?color=2b9348"></a>
-<a href="https://github.com/LinkMeng/ManagerSystem/blob/master/LICENSE"><img src="https://img.shields.io/github/license/LinkMeng/ManagerSystem?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/stargazers"><img src="https://img.shields.io/github/stars/cambridgejames/ManagerSystemDemo" alt="Stars Badge"/></a>
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/network/members"><img src="https://img.shields.io/github/forks/cambridgejames/ManagerSystemDemo" alt="Forks Badge"/></a>
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/pulls"><img src="https://img.shields.io/github/issues-pr/cambridgejames/ManagerSystemDemo" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/issues"><img src="https://img.shields.io/github/issues/cambridgejames/ManagerSystemDemo" alt="Issues Badge"/></a>
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/cambridgejames/ManagerSystemDemo?color=2b9348"></a>
+<a href="https://github.com/cambridgejames/ManagerSystemDemo/blob/master/LICENSE"><img src="https://img.shields.io/github/license/cambridgejames/ManagerSystemDemo?color=2b9348" alt="License Badge"/></a>
 </div>
 
-> 基于SpringBoot
+> 基于SpringBoot的微服务框架Demo
+> 包括：日志模块、异常模块、国际化模块、权限控制模块和缓存模块。详见功能说明文档。
 
 # 一、环境依赖
 
 1. Maven >= 3.9.8
-2. OpenJDK = 1.8.0
+2. OpenJDK = 1.8
 
-⚠️注意！请勿使用过高版本的JDK，否则可能会导致功能不正常。
+⚠️注意！本代码仓使用Mockito4，请勿使用过高版本的JDK，否则可能会导致测试用例功能不正常。
 
 # 二、其它文档
 
